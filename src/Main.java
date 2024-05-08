@@ -2,12 +2,9 @@
 // 点击装订区域中的 <icon src="AllIcons.Actions.Execute"/> 图标。
 public class Main {
     public static void main(String[] args) {
-        //TIP 当文本光标位于高亮显示的文本处时按 <shortcut actionId="ShowIntentionActions"/>
-        // 查看 IntelliJ IDEA 建议如何修正。
-        System.out.println("Hello and welcome!");
+        //通过.sout 可以快速生成print打印代码  属于idea的快捷方式
+        System.out.println("hello world");
 
-        //TIP 按 <shortcut actionId="Debug"/> 开始调试代码。我们已经设置了一个 <icon src="AllIcons.Debugger.Db_set_breakpoint"/> 断点
-        // 但您始终可以通过按 <shortcut actionId="ToggleLineBreakpoint"/> 添加更多断点。
-        for (int i = 1; i <= 5; i++ ) System.out.println("i --  777766  -= " + i);
+        for (int i = 1; i <= 5; i++) System.out.println("i --  777766  -= " + i);
     }
 }
